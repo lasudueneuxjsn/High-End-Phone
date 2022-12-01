@@ -1,0 +1,165 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 120 -- tempo overides the delay
+
+    shared.scr = [[ u-----
+u-----
+u-----
+u-----
+u--u--
+u--u--
+u-u-u-u-
+u u u u u u u [uf]
+[0uf] [30fx] [30fx] [30fx] [3x] [3x] [3x] [3x]
+6----[80]----3----[80]----
+6----[80]----3----[80]----
+[6u] u [80u] u [3u] u [80u] u
+[6u] u [80u] u [3u] u [80u] u
+[6u] u [80u] u [3u] i [80u] Y
+[6u]-[80p]-[3s]-[80]-
+[%d] d [90d] d [3d] s [90a] d
+[6s] s [80s] s [3s] a [80p] s
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [80u] u [3u] u [80u] u
+[6u] u [80u] u [3u] u [80u] u
+[6u] i [80u] Y [3u]-[80p] s
+[6f]-[80j]-[3l]-[80]-
+[9z] l [qrk] z [8l] k [0tj] l
+[7k] j [9WH] k [6j] f [8es] p
+[30g] f [$Qd] s [%Wa] p [30O] a
+[6ep]--3--$5%
+[6u] u [80u] u [3u] u [80u] u
+[6u] u [80u] u [3u] u [80u] u
+[6u] u [80u] u [3u] i [80u] Y
+[6u]-[80p]-[3s]-[80]-
+[%d] d [90d] d [3d] s [90a] d
+[6s] s [80s] s [3s] a [80p] s
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [80u] u [3u] u [80u] u
+6 u [80u] u [3u] u [80u] u
+[6u] i [80u] Y [3u]-[80p] s
+[6f]-[80j]-[3l]-[80]-
+[9z] l [qrk] z [8l] k [0tj] l
+[7k] j [9WH] k [6j] f [8es] p
+[30g] f [$Qd] s [%Wa] p [30O] a
+[6ep]--6--78*
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-6-[0es]-
+[7a]-[9W] P [3a]-[W9s]-
+[7d]-[W9s]-[3a]-[W9d]-
+[18s]-[6p]-[18s]-[30f]-
+[6ej]-f-[6s]-p-78*
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-[6j]-[0e]-
+7-[qed]-9-[qeg]-
+[%30f]-[18s]-[29d]-[7a]-
+[6p]----[O30uaf]-
+[60epsfj]----
+[6u] u [80u] u [3u] u [80u] u
+[6u] u [80u] u [3u] u [80u] u
+[6u] u [80u] u [3u] i [80u] Y
+[6u]-[80p]-[3s]-[80]-
+[%d] d [90d] d [3d] s [90a] d
+[6s] s [80s] s [3s] a [80p] s
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [80u] u [3u] u [80u] u
+6 u [80u] u [3u] u [80u] u
+[6u] i [80u] Y [3u]-[80p] s
+[6f]-[80j]-[3l]-[80]-
+[9z] l [qrk] z [8l] k [0tj] l
+[7k] j [9WH] k [6j] f [8es] p
+[30g] f [$Qd] s [%Wa] p [30O] a
+[6ep]--[!@$%^*(QWETYIOP148qtyuiopasdfghjklzxcvbnm?]--
+6-[80]-3-[80]-
+6-[80]-3-[80]-
+6-[80]-3-[80]-
+6-[80]-3-[80]-
+6-[80e]-3-[80e]-
+6-[80e]-3-[80e]-
+6-[80t]-3-[80t]-
+6-[80t]-3-[80t]-
+6-[etu]-3-[etu]-
+6-[etu]-3-[etu]-
+6-[tup]-3-[tup]-
+6-[tus]-3-[tus]-
+[6u]u[etu]u[3u]u[etuf]f
+[6x]x[etuf]f [3u] u [etu] u
+[6u] u [etu] u [3u] i [etu] Y
+[6u]-[etup]-[3s]-[etu]-
+[%d] d [W90d] d [3d] s [W90a] d
+[6s] s [etus] s [3s] a [etup] s
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [etu] u [3u] u [etu] u
+6 u [etu] u [3u] u [etu] u
+[6u] i [etu] Y [3u]-[etup] s
+[6f]-[etuj]-[3l]-[etu]-
+[9fkz] l [qrk] z [8fjl] k [0tj] l
+[H7k] j [9WH] k [6fj] f [8es] p
+[30g] f [$Qd] s [%Wa] p [30O] a
+[6ep]----
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-6-[0es]-
+[7a]-[9W] P [3a]-[W9s]-
+[7d]-[W9s]-[3a]-[W9d]-
+[18s]-[6p]-[18s]-[30f]-
+[6ej]-f-[6s]-p-78*
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-[6j]-[0e]-
+7-[qed]-9-[qeg]-
+[%30f]-[18s]-[29d]-[7a]-
+[6p]----[O30uaf]-
+[60epsfj]----
+[6u] u [etu] u [3u] u [etuf] f
+[6x] x [etuf] f [3u] u [etu] u
+[6u] u [etu] u [3u] i [etu] Y
+[6u]-[etup]-[3s]-[etu]-
+[%d] d [W90d] d [3d] s [W90a] d
+[6s] s [etus] s [3s] a [etup] s
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [etu] u [3u] u [etu] u
+6 u [etu] u [3u] u [etu] u
+[6u] i [etu] Y [3u]-[etup] s
+[6f]-[etuj]-[3l]-[etu]-
+[9fkz] l [qrk] z [8fjl] k [0tj] l
+[H7k] j [9WH] k [6fj] f [8es] p
+[30g] f [$Qd] s [%Wa] p [30O] a
+[6ep]----
+[^i] i [ETi] i [4i] i [ETi] i
+[^i] i [ETi] i [4i] i [ETi] i
+[^i] i [ETi] i [4i] I [ETi] u
+[^i]-[iETP]-[4S]-[ETi]-
+[6D] D [qe(D] D [4D] S [(qes] D
+[^S] S [iETS] S [4S] s [iETP] S
+[8s] s [0ts] s [5o]-[E0s]-
+[qp]--[4q]--5%6
+[^i] i [ETi] i [4i] i [ETi] i
+^ i [ETi] i [4i] i [ETi] i
+[^i] I [ETi] u [4i]-[iETP] S
+[^g]-[iETJ]-[4L]-[ETi]-
+[(Z] L [Qtl] Z [*L] l [qTJ] L
+[8l] J [(Wj] l [^J] g [*ES] P
+[4qG] g [5wD] S [6es] P [4qp] s
+[^EP]----
+[sYIZ] L l Z [iTPL] l J L
+[Ytpl] J j l [ETPJ] g S P
+[4qG] g [5wD] S [6es] P [4qp] s
+[^EP]--[g^SJ] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
