@@ -1,0 +1,58 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 55 -- tempo overides the delay
+
+    shared.scr = [[ [QET] P P P P a S D
+[qWTS]-O-[Wqya]-P O
+[(QTO]-I--[(P]-
+[i*O] q W I [$TI] * Q i
+[7rY] Q r [YI] O-P a
+[^OS] q [ED] g [@SG] ^ [(g] G
+[%OS] ( W [rI] S ( W I
+[7pS] [Qd] [rf] [*af]-[qd] [WOS] T
+$ [*P] [QP] [EP] [IP] [*a] [QS] D
+[4iOS] 8 [qO]-[^ia] q [iEP] [^O]
+[@YO] ^ [(I] Q-^ [(P]-
+[i!TO] % * I [$ETI] * Q i
+[7rY] Q r [YI] O [QP] [rS] [7D]
+[^PSH] q E G [@PDG] ^ ( [@I]
+[%Ia] ( [WS] [ra]-[(P] [Wa] [%S]
+[I7ad] Q r 7 [*TI] [WO] [Tp] [*a]
+[7pIS] Q [rS] [7S][3OS]-[7a] [0I] [3a]
+[6upS] 0 [eS] [6S][2pS]-[6a] [9f] [2d]
+[%OS] ( [WS] [%S][i!OS]-[%d] [*S] [!a]
+[p$IS] * Q * [Iep] [*a] [QS] [$d]
+[3oaf] 7 [0f] [3f][pf]6 [0d] [epd] [6S]
+[2ipd] 6 [9d] [2f][dg]5 [9f] [wpd] [5S]
+7 [7O] [7a] [7S] [7S] [7G] [7S] [7a]
+[!p] * [!a] [*S] [!a] * ! [*p]
+[YI7p] 7 7 [D7pj] 7 7 7 [!*H]j
+[OSH]-[!*]-[TSg] [WSG] [*h] [$PSH]-
+[*G] [QH] [*G] [EPS] $ G [4sgH]-
+[8J] [qgk] 4 [dg^J] [qH] [dEH] [^G]
+[@PDH] ^ ( Q-[^G] [(J] [g@SH]
+! % * [!G] [$PSG] * Q $
+[7aD] Q [rD][7D] [^dg]-[qP] [ED] [^g]
+[@SG] ^ [(G][@h] [s%DH]-( [WG] [(H]
+[%DGJ] ( [WG] [(GL] r [(k] [WJ] [(k]
+[7DGJ] Q [rH] [7G] [g*H] W T [*ETO]
+$ [*I] [QO] [*I] [ET] $ I [4tiO]-
+[8P] [qa]-[yi^P] [qO] [yEO] [^I]
+[@EYO] ^ ( ^ Q [^I] [(P] [i@O]
+! % * [!I] [$TI] * Q $
+[7rY] [Qi] [rI] [7O] [yi^P] [qO] [EI] [^Y]
+[@ET] [^I] [(i] [%TI]-[(S] [Wa] [(P]
+% [(I] [WI] [(O] [rIP] [(O] [WI] [%i]
+[!TI] % * [%T] [i!*TP] O [!*TI] i
+[7rYI]-[7rY]-[YI7a]-[7aID]-
+[i^PS] G [^PSH] J [@(PS] H [@(PSG] J
+[a%WDH]-[a%WD] G [a%WDG]-[%Wa] S
+[SG] [*T] [*T] H [gSJ] [!*H] [!*G] g
+[$QPSG]----
+[$GJL] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
