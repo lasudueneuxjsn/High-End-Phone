@@ -1,0 +1,163 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 82 -- tempo overides the delay
+
+shared.scr = [[ [W0ru] O u a u O u a 
+u O u a [QETI] P I a 
+[rWYO]-a-O-a-
+O-a-O-a-
+[W0ru] O u a u O u a 
+u O u a u O u a 
+[rWYO]--a-O-I 
+[QETP]----I 
+[3a] 7 [0a] [7a] W [7P] 0 [7O] 
+3 7 0 7 $ * Q [*a] 
+[%S] ( [Wa] [(P] r [(a] W [(a] 
+[%P] [(O] W ( r ( [Wa] ( 
+[3S] 7 [0a] [7P] W [7a] 0 [7S] 
+3 [7a] 0 7 [Wa] [7D] [0D] 7 
+%--7-%-$ 
+^----Y Y-
+[3a] 7 [0a] [7a] W [7P] 0 [7O] 
+3 7 0 7 $ * [Qa] [*a] 
+[%S] ( [Wa] ( [rP] [(a] W [(a] 
+% [(P] [WO] ( $ * Q * 
+[3S] 7 [0a] [7P] W [7a] 0 [7S] 
+3 [7a] 0 [7P] W [7D] 0 7 
+[%D]--7-%-$ 
+[^S]----I 
+[!*O] % [*O] % [0WO] * [0I] [*O] 
+[!*] [%O] * [%D] [0W] * 0 [*I] 
+[30O] [7O] [0O] 7 [rWO] 0 [WI] [0O] 
+[30] [7O] 0 [7D] [Wr] 0 [WD] 0 
+[%WS] ( W ( [Yra] W [ra] W 
+[%W] ( W ( [rY] W r [WD] 
+[$QH] [*G] Q [*D] [ET] [QD] E [QD] 
+[$Q] * Q [*f] [ET] [QD] E Q 
+[!*OH] % [*IG] % [0WYD] * [0YD] [*OH] 
+[!*] [%IG] * [%YD] [0W] * 0 * 
+[30OH] 7 [0IG] 7 [rWYD] 0 [WYD] [0OH] 
+[30] [7IG] 0 [7YD] [Wr] 0 [Wuf] 0 
+[%WYD] ( W ( [rY] W r W 
+[%W] ( W ( [rY] W [rTS] W 
+[$QTS] * Q * [ETYD] Q E Q 
+[$Quf] * Q * [ETYD] Q E Q 
+3-[D3ak] 7 0-[QTS]-
+[WYD]-[QTS] 0 [$Yra]--
+%-[%Dak] ( W-[ETS]-
+[rYD]-[ETS] W [(ra]-[%YD]-
+$-[$TS] * Q-W-
+E-W-Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [YD] 
+E [uf] W [QYD] *-$-
+3-[D3ak] 7 0-[QTS]-
+[WYD]-[QTS] 0 [$Yra]--
+%-[%Dak] ( W-[ETS]-
+[rYD]-[ETS] W [(ra]-[%YD]-
+$-[$TS] * Q-W-
+E-W-Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [YD] 
+E [uf] W [QYD] *-$-
+[0L] W 0 r 0 W 0 r 
+[0C] W 0 r Q E Q T 
+[WZ] r W Y W r W Y 
+W r W Y Q E Q T 
+[0L] W 0 r 0 W 0 r 
+0 W 0 r [0C] W 0 r 
+[WZ]--r-W-Q 
+[EL]----Y 
+[3ua] 7 [0ua] [7ua] W [7uP] 0 [7uO] 
+3 7 0 7 $ * Q [*O] 
+[%OS] ( [Wa] [(P] r [(Oa] W [(Oa] 
+[%P] [(O] W ( r ( W ( 
+[3uS] 7 [0ua] [7uP] W [7ua] 0 [7uS] 
+3 [7ua] 0 7 [WOa] [7OD] [0OD] 7 
+%--7-%-$ 
+^----Y 
+[3ua] 7 [0ua] [7ua] W [7uP] 0 [7ua] 
+[3uP] [7uO] 0 7 $ * [QO] [*O] 
+[%OS] ( [Wa] [(P] r [(Oa] W [(Oa] 
+[%P] [(O] W ( $ * [QO] [*O] 
+[3uS] 7 [0ua] [7uP] W [7ua] 0 [7uS] 
+3 [7ua] 0 7 [WOa] [7OD] [0OD] 7 
+%--7-%-$ 
+[^IS]----I 
+[u!*O] % [u*O] % [0uWO] * [0I] [u*O] 
+[!*] [u%O] * [%OD] [0W] * 0 [*I] 
+[30uO] 7 [0uO] 7 [ruWO] 0 [WI] [0uO] 
+[30] [7uO] 0 [7OD] [Wr] 0 [WOD] 0 
+[%WOS] ( W ( [YOra] W [Ora] W 
+[%W] ( W ( [rY] W r [WD] 
+[$QPH] [*PG] Q [*PD] [ET] [QPD] E [QPD] 
+[$Q] * Q [*Pf] [ET] [QPD] E Q 
+[!*OH] % [*IG] % [0WYD] * [0YD] [*OH] 
+[!*] [%IG] * [%YD] [0W] * 0 * 
+[30OH] 7 [0IG] 7 [rWYD] 0 [WYD] [0OH] 
+[30] [7IG] 0 [7YD] [Wr] 0 [Wuf] 0 
+[%WYD] ( W ( [rY] W r W 
+[%W] ( W ( [rY] W [rTS] W 
+[$QTS] * Q * [ETYD] Q E Q 
+[$Quf] * Q * [ETYD] Q E Q 
+3-[D3ak] 7 0-[QTS] W 
+[rYD]-[WTS] Q [$Yra]--
+%-[%Dak] ( W-[ETS] r 
+[YD]-[rTS] E [Wra]-[(YD]-
+$-[$TS] * Q-W E 
+T-E W Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [EYD] 
+T [uf] E [WYD] Q-*-
+3-[D3ak] 7 0-[QTS] W 
+[rYD]-[WTS] Q [$Yra]--
+%-[%Dak] ( W-[ETS] r 
+[YD]-[rTS] E [Wra]-[(YD]-
+$-[$TS] * Q-W E 
+T-E W Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [EYD] 
+T [uf] E [WYD] Q-*-
+[W0r]----
+[QET]-D D 
+[rWYH]-G G-D D H-
+G G-[QET]-V-
+[0rWC]--Z--L-
+k----D D 
+[rWYH]-G G-D-D 
+[QET] f-D----
+[W0ru]----
+[QETI]-D D 
+[rWYOH]-G G-D D H-
+G G-[QETI]-V-
+[0ruWC]--Z--L-
+k----D D 
+[rWYOH]-G G-D-D 
+[QETI] f-D----
+3-[D3ak] % 7 0 [QTS] W 
+[rYD] W [QTS] 0 [$Yra]--
+%-[%Dak] 7 ( W [ETS] r 
+[YD] r [ETS] W [(ra] 7 [%YD]-
+$-[$TS] ^ * Q W E 
+T E W Q * ^ $ [YD] 
+[$OH] [IG] $ [^YD] * [QYD] W [EYD] 
+T [Euf] W [QYD] * ^ $-
+3-[D3ak] % 7 0 [QTS] W 
+[rYD] W [QTS] 0 [$Yra]--
+%-[%Dak] 7 ( W [ETS] r 
+[YD] r [ETS] W [(ra] 7 [%YD]-
+$-[$TS] ^ * Q W E 
+T E W Q * ^ $ [YD] 
+[$OH] [IG] $ [^YD] * [QYD] W [EYD] 
+T [Euf] W [QYD] * ^ $-
+[0x] W 0 r 0 W 0 r 
+0 W 0 r Q E Q T 
+[WZ] r W Y W r W Y 
+W r W Y Q E Q T 
+[0x] W 0 r 0 W 0 r 
+0 W 0 r 0 W 0 r 
+[WZ]--r-W-Q 
+[EL]----
+[0rk] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
