@@ -1,0 +1,69 @@
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 25 -- tempo overides the delay
+
+shared.scr = [[ [Qgc]-[ETigc]-[QDZ]-[ETY]-
+[Qgc]-[JB][ETig]-f[QD]-[ETYD]ffg
+[*s]-[Wqts]-[*P]-[qWE]iOsD
+[*s]-D[Wqts] Dg[*P]-[qWE]PsDg
+[Qg]-[ETigc]-[QDZ]-[ETY]SD
+[Qgc]-[HV][ETi][JB]g[QDZ]-[ETYD]fg
+[*s]-[Wqts]D-[*P]-[qWE]gHlZ
+[*l]-Zl-c[*J]--
+[$gc]-[ETi]-[$DZ]-[ETY]-
+[$gc]-[HV][ETig]-f[$D]-[ETYD]fg
+[!s]-[Wqt]-[sl][*P]-[qWE]iOsD
+[!s]-D[*s] Dg[qWEP]--PsDg
+[$g]-[Qgc]-[QDZ]-[ETY]-
+[$gc]-[JB]QLLLL[ETYDZ]-[QD]fg
+[!s]-[Wqt]-[*P]-[qWE]iOsD
+[*s]-Ds DgP--
+[4esl]-[qetY]-[qetC]v-[qety]-l
+[4sH]-J[qtWY]lZ[qtWC]v-[Wqty]-c
+[^J]-[WEyil]-[Eqyv]-[Ei]c-
+[1c]--x--
+[6fx]-[etuo]-[etudz]-[etu][sl][dz]
+[6f]-[hv][etuofx]-[DZ][etudz]-[etu]-z
+^qWtWtYtYolZvZvBv-c-
+[wy(ES]dPo[9qeO]piy[*Wqta]s--
+[$Qg]E[ETi]g-[Qg]fD-[ETY]-
+[$Qg]ETJ[ig]TEf[QD]-Dfg
+[!*s]qW[Wts]qW[*P]qW[WE][qO][PS]O[WPS]O[PS]
+[!*i]q[Wi][Wt][qi][Ws][*P][qO][Wi][WEg][qi][WO]
+[$Qg]ET[ig]E[TJ][QD]ETYET
+[$Qg]ETH[ig][EJ][Tg][QD]ET[YD][EH]JH[TJ]HJ
+[!*][qH]Jk[WJ]Hg[tD]gHgD[*s]qW[EO]-P
+[!*a]sqWD[ts]-Wg[*P]qWEW-
+[(QETc]--c[GJZ]--
+[$gc]-[HV][gc]-[fx][(D]QEQ[Ef][Tg]
+!--ZcZlJlJgPsPi--
+!-kl--HJ[lm]LZ
+[(D]gTEQVB([TZ]EQBV
+[(c]Q V[(c]QEx[(Z]Q[Es]Ps[(P]S[Sg]
+[%gc]q8-ZL[%l]L[8Z]c[(l]-sSDS
+[WP]O[Wti]-[(Wt]----
+[4s]--sDgh--
+[4h]-H[qetY]lZcvBv--
+[7k]-l-v--c-
+[W9qrc]--[E0wtf]hLl-J
+qet[ex]l[tj]x[el]j[9qz]l[ej]z[tl]j[qz]l[ej]z[tl]j
+[qx]l[ej]bt[qx]e[tZ][qz]etet-
+^qWtWtYtYolZvZvBv-c-
+[wy(ES]dPo[9qeO]piy[*Wqta]s--
+[$c]^*q--[$Z]^*(--
+[$c]^*q Bc-x[$^*(Z]-Zxc
+[!H]J4l8J--gHlZ[!Hl]48-[Hl]-gHlZ
+[!l]48HJl HJHg DgDs-OP
+[Qgc]--[JB][HV][QDZ]--
+[QV]VmLZ I-JH[QD]-i-lJHg
+[*O]PsP T--DgHJHgDgHJHg
+DgHJHgDgHJHg[DV]gHJHBg[Dc]gHJHVg
+DgHJHgDgHJHgDgHJHg[DZ]gHJHcg
+DgHJHgDgHJHgDgHJHgDgHJHg
+DgHJHgD ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
