@@ -1,0 +1,89 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ [TOSHLfx]--x Z L xWYOaDH
+Z-Z L k--eupSfj
+L--L k j-0ruOaf
+k-k j H--QTIpSG
+j--j H G j*WTuOS
+H-L-L-f WYOsD
+G--G f D-
+[TOf]-S-S----
+r-
+Ya[pk] jH0 r O r
+7 QG[Ij] [YH]f* Wf[uj] [WH]G
+6 [0f]fu [IG]H0 r O r
+7 QG[IG] [YH]f* W u [YD]S
+6 0a[uk] [Ij]H0 r O r
+[rk]k[Ik]k[GL]ZDxT O f Oj
+[ej]j[uj]j[fj]k[Gj]H0 r O r
+rG[QG] [IG] [YH]f* W u Y
+6 0 u-W[60eT]TTIOO
+[rT]TT[eI]OO[7QYI]IuI-u
+[%0r]--W[60eT]TTIOO
+[rT]TT[eI]OO[7QYI]Iu[uI] O
+[Yp]----L
+[Sx]Hf[HL]SH[fx]H[OZ]D[aL][Dk]ODa[DH]
+[pL]f[Sk][fj]pf[SL]f[uk]f[aj][fH]ufaf
+[Ij]Sp[SG][IG][SH][pj]S[TH]S[OL]S[TH]S[Of]S
+[WD]sOsWs[OG]s[Tf]O[uD]O[TS]O[uSL]O
+[Tfx]SO[SL]TS[Ofx]S[WDZ]Y[rSL][Yak]WY[rOH]Y
+[eSL]u[Tak][upj]eu[TSL]u[0ak]u[rpj][uOH]0uru
+[Qpj]Te[TIG][QIG][TOH][epj]T[*OH]T[WSL]T[*OH]T[Wuf]T
+[%YD]tWt%t[WI]t[*WTu] Y T-
+[!*HLfx] OT[ufx][WDZ][TSL][0fx][k%DHZ] [YDZ][WSL][rak](W7
+[6fjSL] ue[TSL][0ak][epj]*[H3afk] [rak][0pj][WOH]70%
+[$SGpj] [Tpj]Q[epj][*OH][QIG][*pj][f!*OSH] [OSL]T[uSL]W[Tuf]0
+[s%IOG] YW[tIG][(uf][WYD]8[!*OSuf] [TS]0[WS]*0%
+[!*HLfx] OT[ufx][WDZ][TSL][0fx][k%DHZ] [YDZ][WSL][rak](W7
+[6fjSL] ue[TSL][0ak][epj]*[H3afk] [rak][0pj][WOH]70%
+[$SGpj] [Tpj]Q[epj][*OH][QIG][*pj][f!*OSH] [OSL]T[uSL]W[Tuf]0
+[s%IOG] YW[tIG]([uf][YD] [*WTOSuf] SI[rp] pp
+[0r]O--[(r]-Ip Ou
+[*r]-fx GC [6T]-uuIII
+[0ruO][uO] [uO] [uO] O[r(YI][YI] IpO[Tu]
+[*Tru]--[6T]aaaaaff
+[0r][Oa][Oa][Oa] [Ip][uO][Ip][(r][Oa][Oa][Oa][Ia][Ia][uf][uf]
+[*r][Oa][Oa][Oa] [Ip][uO][Ip][6T][Oa][Oa][Oa][Ia][Ia][uf][uf]
+[0r][Oa][Oa][Oa] [Ip][uO][Ip][(r]O uuIO
+[*r]IIIIIuO[6T]OI aa S
+ear T uffDDDDaaa
+r T Y If[Wf]D[rD]D[uD]a[Ia]a
+e r T uffDDDDSaa
+[ra]aTSYaIS[pD]--L
+[Sx]Hf[HL]SH[fx]H[OZ]D[aL][Dk]ODa[DH]
+[pL]f[Sk][fj]pf[SL]f[uk]f[aj][fH]ufaf
+[Ij]Sp[SG][IG][SH][pj]S[TH]S[OL]S[TH]S[Of]S
+[WD]sOsWs[OG]s[Tf]O[uD]O[TS]O[uSL]O
+[Tfx]SO[SL]TS[Ofx]S[WDZ]Y[rSL][Yak]WY[rOH]Y
+[eSL]u[Tak][upj]eu[TSL]u[0ak]u[rpj][uOH]0uru
+[Qpj]Te[TIG][QIG][TOH][epj]T[*OH]T[WSL]T[*OH]T[Wuf]T
+[%YD]tWt%[tI][WG]t[*uf]T[WYD]T[*TS]TWT
+[*x][Tf][WH][Tf][*x][TZ][WL][Tx][%Z][rD][(Z][rL][%k][rD][(H][rD]
+[6L][eS][0f][eS][6L][ek][0j][eL][3k][Wa][7k][Wj][3H][Wa][7f][Wa]
+[$j][QS][*f][QS][$j][QH][*G][Qj][*H][WS][0L][WS][*L][WS][0f][WS]
+[%G][QO][(s][QO][%G]fD [!%*f] S S O
+[*WT]-rTu-[%(W]Tru-r
+[60T]rQWu T [30rO] YTu-
+[$*T]-rTu-[*W]Tru-r
+[%QT]rQWu T [r*WO] YTu-
+[uTOS]-aSf-[rWYO]Saf-a
+[euTS]aIOf S [0ruaH] DSf-
+[eQTS]-aSf-[uTO]Saf-a
+SaIOHGSDf D S [SL]
+[!*HLfx] O[TSL]uW[Tfx]0[k%DHZ] [YSL][Wak]r([WOH]7
+[6fjSL] [uak][epj]T0[eSL]*[H3afk] [rpj][0OH]W70%
+[$SGpj] T[QIG][eIG][*OH][Qpj]*[f!*OSH] [OSL]T[uOH]W[Tuf]0
+[s%IDG] YWt([WIG]8[!*OSuf] [YOD]T[uTS]WT0
+[!*HLfx] O[TSL]uW[Tfx]0[k%DHZ] [YSL][Wak]r([WOH]7
+[6fjSL] [uak][epj]T0[eSL]*[H3afk] [rpj][0OH]W70%
+[$SGpj] T[QIG][eIG][*OH][Qpj]*[f!*OSH] [OSL]T[uOH]W[Tuf]0
+[s%YOD] OtYWt(W8(%% [TOf]G
+f-D-S ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
