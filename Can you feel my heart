@@ -1,0 +1,126 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 70 -- tempo overides the delay
+
+    shared.scr = [[ [as]-a-a-d-s
+[pa]-a u a-d-s
+[Oa]-a-a-d-s
+a a u a auuua-
+[as]-a-a-d-s
+[pa]-a u a-d-s
+[ua]-a-a-d-s
+a a u a auuua-
+[80wtuoa]-[uoa]-[uoa]-[od]-[os]
+[680euoa]-[oa] u [oa]-[od]-[os]
+[%WO70ua]-[ua]-[ua]-[ud]-[us]
+[ua] [ua] u a auuua-
+[80wtuoa]-[uoa]-[uoa]-[od]-[os]
+[680euoa]-[oa] u [oa]-[od]-[os]
+[%O370ua]-[ua]-[ua]-[ud]-[us]
+[ua] [ua] u a auuua-
+[80wa]-[80wa]-[0wtp]-o p o
+[680]-[680]-[80e]----
+[357a]-[357a]-[570p]-o a-
+[357]-[357]-[570]--[570]
+[80wa]-[80wa]-[0wtp]-o p o
+[680]-[680]-[80e]----
+[357a]-[357a]-[570a]----
+[357a]-[357a]-[570] a-s [yoa]
+[80w]-[80w]-[0wt] [uoa]-[od]-[os]
+[680uoa]-[680][oa] [80eu] [oa]-[od]-[os]
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us]
+[%37ua] [ua][%37]u [%70a] auuua [579]
+[680uoa]-[680][uoa] [80e] [uoa]-[od]-[os]
+[80wuoa]-[80w][oa] [0wtu] [oa]-[od]-[os]
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us]
+[%37a]-[%37a]-[%70] a-s [yoa]
+[80wa]-[80wa]-[0wtp]-o p o
+[680]-[680]-[80e]--o o
+[357a]-[357a]-[570p]-o a-
+[357]-[357]-[570]----
+[80wa]-[80wa]-[0wtp]-o p-o
+[680o]-[680]-[80e]----
+[357a]-[357a]-[570p]-o a-
+[357]-[357]-[570]-a a a
+[80wa] a[80w]-[0wt]-a a a
+[680p] o[680]-[80e]-a a a
+[357a] a[357]-[570]-a a a
+[357a] a[357]-[570]----
+[80wa] a[80w]p [0wto] p o--
+[680a] a[680]p [80eo] p--
+[357a] a[357]p [570o] p o--
+[357a]-[357a]-[570] a-s [yoa]
+[80w]-[80w]-[0wt] [uoa]-[od]-[os]
+[680uoa]-[680][oa] [80eu] [oa]-[od]-[os]
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us]
+[%37a]-[%37a]-[%70] a-s [yoa]
+[680uoa]-[680][uoa] [80e] [uoa]-[od]-[os]
+[80wuoa]-[80w][oa] [0wtu] [oa]-[od]-[os]
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us]
+[%37a]-[%37a]-[%70] a-s [yoa]
+[80w]-[80w]-[0wt] [uoa]-[od]-[os]
+[680uoa]-[680][oa] [80eu] [oa]-[od]-[os]
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us]
+[%37ua] [ua][%37]u [%70a] auuua [579]
+[680uoa]-[680][uoa] [80e] [uoa]-[od]-[os]
+[80wuoa]-[80w][oa] [0wtu] [oa]-[od]-[os]
+[%37uoa]-[%37][ua] [%70] [ua]-[ud]-[us]
+[%37a]-[%37a]-[%70] a-s [yoa]----
+p--
+a----
+u--
+I--
+o----
+I--
+a----
+u--I--o
+[ta]-a-a p--o
+a-a-a p r-o
+[ua]-a-a p-o-o
+a-a-a p w-o
+[ta]-a-a d--s
+a-a-a p r-o
+[ua]-a-a p-o-o
+a-a-a p w-o
+[80wua]-[ua]-[ua] [up]--o
+[ua]-[ua]-[ua] [up] [7Q]-o
+[0wrua]-[ua]-[ua] [up]-[uo]-o
+[579wyoa]-[yoa]-[yoa] [yp]--o
+[8wa] 0aw [ta] [wd] 0 8 [0s]
+[60a] 8a0 [ea] [0d] 8 6 [8o]
+[37a] 5a7 [0a] [7p] 5o3 [5o]
+[59a] 7a9 [wa] [9p] 7 5 o
+[8wua] 0[ua]w [tua] [wup] 0 8 [0o]
+[60ua] 8[ua]0 [eua] [0up] 8 6 [8o]
+[37ua] 5[ua]7 [0ua] [7up] 5[uo]3 [5o]
+[59yoa] 7[yoa]9 [wyoa] [9yp] 7 5 o
+[8wuoa] 0[uoa]w [tuoa] [wuoad] 0 8 [0s]
+[60uoa] 8[uoa]0 [euoa] [0uoad] 8 6 [8o]
+[37ua] 5[ua]7 [0ua] [7up] 5[uo]3 [5o]
+[59yoa] 7[yoa]9 [wyoa] [9yp]--
+[80wtuoa]-[uoa]-[uoa]-[od]-[os]
+[680euoa]-[oa] u [oa]--
+[80wtud] o [ud] o [ud] o [ud] o
+[ud] o [ud] o [ud] o [680eys] o
+[3570ya] o [ya] o [ya] o [ya] o
+[579wyp] I [yp] I [yp] I [yp] I
+[80wtud] o [ud] o [ud] o [ud] o
+[ud] o [ud] o [ud] o [680eys] o
+[3570ya] o [ya] o [ya] o [ya] o
+[357a]-[357a]-[570] a-s [570a]
+[80wyoa] a[80w]p [0wto] p o--[680uoa]-
+[680][oa] [80eu] [oa]-[od]-[os] [357a]
+a[357]p [570o] a--[357uoa]-
+[357][oa] [570u] [oa]-[od]-[os] [80wa]
+a[80w]p [0wto] p o--[680uoa]-
+[680][oa] [80eu] [oa]-[od]-[os] [357a]-
+[357a]-[570a]----[357a]-
+[357a]-[570] a-s [yoa] [80w]-
+[80w]-[0wt] [uoa]-[od]-[os] [357ua]
+[ua][357]u [570a] auuua ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
